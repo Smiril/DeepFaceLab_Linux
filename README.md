@@ -4,11 +4,7 @@ This project provides scripts inspired by [DeepFaceLab_Linux](https://github.com
 
 You'll need `git`, `ffmpeg`, `python3` and python module `virtualenv` available to be able to execute these scripts. The scripts will create a virtual env sandbox and will install all necessary dependencies there, so your main installation of `python3` will be left intact.
 
-## NOTE: Apple M1 chip
-
-Currently there's limited support for Apple M1 laptops. You can do model training, but the XSeg editor currently does not work (the DeepFaceLab codebase is not compatible with PyQt6).
-
-## NOTE: FULL RUN M1
+## NOTE: FULL RUN
 
 ```
 
