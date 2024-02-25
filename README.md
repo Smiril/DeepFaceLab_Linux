@@ -11,10 +11,10 @@ You'll need `git`, `ffmpeg`, `python3` and python module `virtualenv` available 
 cd scripts
 ./2_extract_images_from_video_data_src.sh  
 ./3_extract_images_from_video_data_dst.sh
-./4.1_data_src_extract_faces_S3FD.sh <<< on GPU
-./5_data_dst_extract_faces_S3FD_best_GPU.sh <<< on GPU
-./6_train_Quick96.sh <<< on GPU
-./7_convert_Quick96.sh <<< on CPU
+./4.1_data_src_extract_faces_S3FD.sh
+./5_data_dst_extract_faces_S3FD.sh 
+./6_train_AMP.sh
+./7_convert_AMP.sh
 ./8_converted_to_avi.sh 
 
 ```
