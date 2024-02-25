@@ -27,10 +27,6 @@ Make sure you have installed:
 - [Git](https://git-scm.com/) (check with `git --version`)
 - [FFmpeg](https://ffmpeg.org/) (check with `ffmpeg -version`)
 - [Python 3](https://www.python.org/) (check with `python3 --version`)
-- [Virtualenv](https://github.com/pypa/virtualenv) (check with `virtualenv --version`)
-
-For **Apple M1** laptops you also need [hdf5](https://formulae.brew.sh/formula/hdf5) lib installed.
-Check if you have it with `brew ls --versions hdf5`. Install it with `brew install hdf5`.
 
 **Clone and setup**
 
